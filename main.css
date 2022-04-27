@@ -1,0 +1,275 @@
+
+:root{
+    --maroon: #800000;
+    --linen: #faf0e6;
+    --pink: #ffc0cb;
+    --hotpink: #ff69b4;
+    --green: #008000;
+    --darkgrey: #a9a9a9;
+}
+table{
+    width: fit-content;
+}
+#td1{
+    width: 20%;
+}
+#pic{
+    width :250px;
+    
+}
+#td2{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ width: 60px;
+  font-size: 1em;
+  position: relative;
+  
+}
+  
+/* Style The Dropdown Button */
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+    margin-top: auto;
+    right: 0;
+    
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: relative;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+   
+}
+/* Links inside the dropdown */
+  
+  .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: none;
+    font-size: 16px;
+    
+  }
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ h2{
+    text-align:center;
+}
+p{
+    margin-left: auto;
+    margin-right: auto;
+}
+#a{
+    float: right;
+}
+#a a  {
+    display: block;
+    text-align: right;
+    padding: 16px;
+    text-decoration: none;
+  }
+h1{
+    text-align: justify;
+    ;
+}
+*{
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+body {
+    background: var(--bg);
+    background-repeat: repeat-y;
+    
+}
+ul{
+    font-family: helvetica;
+    margin: 5px;
+    text-align: right;
+    width: 1100px;
+    padding: 30px;
+    border: 20px ;
+    font-size: 1.5em;
+  
+}
+li{
+    list-style: none;
+}
+.list{
+    list-style: none;
+}
+#msg{
+    font-family: helvetica;
+    text-align: right;
+    width: 920px;
+  padding: 10px;
+  border: 20px ;
+  margin: 0;
+  text-decoration-line: overline underline;
+  text-decoration-color: maroon;
+  text-decoration-thickness: auto;
+  text-decoration-style: double;
+  text-shadow: 2px 2px 5px ;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+.btn{
+    position: relative;
+    text-align: right;
+    top:20px;
+    left:980px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: black;
+    background-color: var(--btnBg);
+}
+.btn:focus{
+    outline-style: none;
+}
+.light-theme{
+    --bg: var(--pink);
+    --fontColor:var(--maroon);
+    --btnBg:var(--linen);
+    --btnFontcolor: var(--maroon);
+}
+.dark-theme{
+    --bg:var(--maroon);
+    --fontColor:var(--pink);
+    --btnBg:var(--linen);
+    --btnFontcolor: var(--pink);
+
+}
+a:link {
+    color: solid #777;
+  }
+a:visited {
+    color: solid #777;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  .flex-container {
+    display: flex;
+    background-color: grey;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .newspaper {
+    column-count: 3;
+  }
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 30px;
+    text-align: center;
+  }
+  #lp{
+    text-align: center;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+  }
+  input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: grey;
+    border: 1px #777;
+  }
+  
+  #form {
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    
+  }  
+  .forms{
+      column-count: 2;
+  }
+  #alert{
+    width: 600px;
+    height: 1in;
+    border-radius: 5px;
+    color: black;
+  }
+  .new1{column-count: 2;}
